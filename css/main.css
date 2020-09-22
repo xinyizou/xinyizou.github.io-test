@@ -1504,7 +1504,7 @@ header .logo a {
 	margin-left: -30px
 }
 .intro-info img {
-	height: 20rem;
+	height: auto;
 	width: 20rem;
 	border-radius: 100%;
 	margin: 0rem 5 0 50;
