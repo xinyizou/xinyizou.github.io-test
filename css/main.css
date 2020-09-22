@@ -1501,12 +1501,12 @@ header .logo a {
 .intro-info {
 	margin-top: 4.2rem;
 	margin-right: -30px;
-	margin-left: -30px
+	margin-left: -30px;
+	border-radius: 100%;
 }
 .intro-info img {
 	height: auto;
 	width: 20rem;
-	border-radius: 100%;
 	margin: 0rem 5 0 50;
 	float: left;
 	margin-right: 30px;
