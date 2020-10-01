@@ -2008,10 +2008,11 @@ header .logo a {
 	color: #FF0077;
 }
 #services .section-intro p {
-	color: rgba(255, 255, 255, 0.7);
+	color: white;
+	font-size: small;
 }
 .services-content {
-	max-width: 1200px;
+	max-width: 1000px;
 }
 .services-list {
 	margin-top: 1.2rem;
@@ -2033,7 +2034,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .services-list .desc {
-	color: rgba(255, 255, 255, 0.6);
+	color: white;
 }
 
 /* pagination */
@@ -2293,6 +2294,7 @@ header .logo a {
 }
 .contact-info {
 	margin: auto;
+	padding-top: 10rem;
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
 	text-align: center;
