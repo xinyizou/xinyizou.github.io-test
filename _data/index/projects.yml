@@ -1,0 +1,22 @@
+- name: Hide.Me
+  descr: "Image transformation pipeline and segmentation model developed using Tensorflow and OpenCV for photo anonymization."
+  image: pong.png
+  kaggle: https://github.com/xinyizou/hide.me
+
+
+- name: PhysioCare
+  descr: "Physiotherapy telemedicine Android app developed to track real-time muscle sensor data through Google Firebase and provide automated posture correction. Hack the North 19 Winner."
+  image: pong.png
+  github: https://github.com/xinyizou/PhysioCare
+
+
+- name: WatBin
+  descr: "Image recognition app on Android for waste classification following University of Waterloo guidelines using IBM Watson cloud services."
+  image: pong.png
+  github: https://github.com/xinyizou/WatBin
+
+
+- name: DriveSmart
+  descr: "An Arduino ignition interlock system which pairs with Android mobile devices through Bluetooth to evaluate user cognitive performance."
+  image: pong.png
+  github: https://github.com/xinyizou/DriveSmart

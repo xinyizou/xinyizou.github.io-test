@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="This is my personal website showcasing what I'm all about.
+">
+  <meta name="keywords" content="Developer, Wasiq, and Waterloo">
+  <meta name="author" content="Resume | Wasiq">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f5f5">
+
+  <!-- Twitter Tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Resume | Wasiq">
+  <meta name="twitter:description" content="This is my personal website showcasing what I'm all about.
+">
+  <meta name="twitter:image" content="http://localhost:4000/img/wasiq-logo.png">
+
+  <!-- Open Graph Tags -->
+  <meta property="og:type" content="blog">
+  <meta property="og:url" content="http://localhost:4000">
+  <meta property="og:title" content="Resume | Wasiq">
+  <meta property="og:description" content="This is my personal website showcasing what I'm all about.
+">
+  <meta property="og:image" content="http://localhost:4000/img/wasiq-logo.png">
+  <title>Resume | Wasiq</title>
+
+  <!-- CSS files -->
+  <link rel="stylesheet" href="http://localhost:4000/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+
+  <link rel="canonical" href="http://localhost:4000/resume/">
+  <link rel="alternate" type="application/rss+xml" title="Wasiq" href="http://localhost:4000 /feed.xml " />
+
+  <!-- Icons -->
+  <!-- 16x16 -->
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+  <!-- 32x32 -->
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+</head>
+
+
+<body>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="table cover">
+        
+
+<div class="cover-card table-cell table-middle">
+  
+  <img src="http://localhost:4000/img/wasiq-logo.png" alt="" class="avatar">
+  
+  <a href="http://localhost:4000/" class="author_name">Wasiq Mohammad</a>
+  <span class="author_job">3rd year Systems Design Engineering student</span>
+  <span class="author_bio mbm">Interested in data, machine learning, and doing cool things with code.
+Studying systems design engineering at the University of Waterloo.
+</span>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="http://localhost:4000/">home</a>
+        <span>/</span>
+      </li>
+             
+      <li class="nav-item">
+        <a href="http://localhost:4000/resume/">Resume</a>
+        
+          <span>/</span>
+        
+      </li>
+         
+    </ul>
+  </nav>
+  <script type="text/javascript">
+  // based on http://stackoverflow.com/a/10300743/280842
+  function gen_mail_to_link(hs, subject) {
+    var lhs,rhs;
+    var p = hs.split('@');
+    lhs = p[0];
+    rhs = p[1];
+    document.write("<a class=\"social-link-item\" target=\"_blank\" href=\"mailto");
+    document.write(":" + lhs + "@");
+    document.write(rhs + "?subject=" + subject + "\"><i class=\"fa fa-fw fa-envelope\"></i><\/a>");
+  }
+</script>
+<div class="social-links">
+  <ul>
+    
+      <li>
+      <script>gen_mail_to_link('wfmohamm@edu.uwaterloo.ca', 'Hello from website');</script>
+      </li>
+    
+    
+    
+    
+    <li><a href="http://linkedin.com/in/wasiqm" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
+    
+    
+    
+    <li><a href="http://github.com/wasiqm" class="social-link-item" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ul>
+</div>
+
+</div>
+
+      </div>
+    </div>
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <div class="row">
+
+    <div class="col l7 offset-l1">
+        <div class="row">
+            <div class="col">
+                <h1><span data-i18n="skills.my_skills">About</span></h1>
+
+<div>
+    <p>
+        A highly-motivated student seeking a data science or data engineering internship for Summer 2020.
+    </p>
+</div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+
+
+
+<h2><span data-i18n="skills.my_skills">Skills</span></h2>
+<canvas id="cs"></canvas>    
+<script>
+    var ctx = document.getElementById("cs");
+    var data = {
+    labels: "Work Ethic, JavaScript, Git, Java, Python, SQL".split(","),
+    datasets: [{
+        label: "Ability",
+        backgroundColor: "rgba(179,181,198,0.2)",
+        borderColor: "#3385FF",
+        pointBackgroundColor: "#3385FF",
+        pointBorderColor: "#fff",
+        pointHoverBackgroundColor: "#3385FF",
+        pointHoverBorderColor: "#3385FF",
+        data: [100, 75, 80, 60, 95, 80]
+        }]
+    };
+    
+    var myRadarChart = new Chart(ctx, {
+    type: 'radar',
+    data: data,
+    options: {
+        scale: {
+            responsive: true,
+            ticks: {min: 0, max: 100},
+            lineArc: false,
+            pointLabels: {fontSize: 14},
+        },
+        scaleFontSize: 0,
+        legend: {display: false},
+    }
+    });
+
+    var myDoughnutChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: data,
+    options: options
+    });
+
+</script>    
+        </div>
+        <div class="row">
+            <h1><span data-i18n="skills.my_skills">Bio</span></h1>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    
+          <div class="archive-title"><div class="archive-year"><strong>Sep 2019 - Dec 2019</strong> Data Science Intern @ <a href="http://www.asc-csa.gc.ca/eng/">Canadian Space Agency</a></div></div>
+    
+          <div class="archive-title"><div class="archive-year"><strong>Jan 2019 - Apr 2019</strong> Data Analytics Intern @ <a href="https://www.airmiles.ca/">LoyaltyOne (Air Miles)</a></div></div>
+    
+          <div class="archive-title"><div class="archive-year"><strong>May 2018 - Aug 2018</strong> Data Engineering Intern @ <a href="https://www.scotiabank.com/">Scotiabank</a></div></div>
+    
+          <div class="archive-title"><div class="archive-year"><strong>Sep 2017 - Dec 2017</strong> Full Stack Development Intern @ <a href="http://www.firmwater.com/">Firmwater Inc</a></div></div>
+    
+  </div>
+</div>    
+        </div>
+        <div class="row">
+            <div class="navy-line"></div>
+<h1><span data-i18n="skills.my_skills">Education</span></h1>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    
+          <div class="archive-title bio"><div class="archive-year"><strong>2016 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong> <a href="http://www.uwaterloo.ca/">University of Waterloo</a></div></div>
+    
+  </div>
+</div>    
+        </div>
+    </div>
+
+    <div class="col l8 offset-l1">
+        <div class="row">
+            <div class="col">
+                <h1><span data-i18n="skills.my_skills">Projects</span></h1>
+
+
+    <div class="row">
+            <div class="col">
+                <h2 style="margin: 0">Kiva Kaggle Project</h2>
+                <p style="margin: 0">Analyzed Kiva's microfinancing datasets with pandas and created insightful visualizations using the plotly python library.</p>
+
+                
+                
+
+            </div>
+    </div>
+
+    <div class="row">
+            <div class="col">
+                <h2 style="margin: 0">StudyBot</h2>
+                <p style="margin: 0">Wrote a Kik chatbot that takes pictures of notes to develop relevant quiz questions. Built using Python and Microsoft APIs (JSON) and deployed with ngrok.</p>
+
+                
+                <a href="https://github.com/wasiqm/study-bot-for-kik "><i class="fa fa-fw fa-github"></i>GitHub</a>
+                
+                
+
+            </div>
+    </div>
+
+    <div class="row">
+            <div class="col">
+                <h2 style="margin: 0">Monopoly Deal Card Game</h2>
+                <p style="margin: 0">Developed game application using Python with thorough documentation. Built using a full GUI and object-oriented programming. Implemented the Software Development Life Cycle to design and test the game.</p>
+
+                
+                <a href="https://github.com/wasiqm/monopoly-deal-reimagined "><i class="fa fa-fw fa-github"></i>GitHub</a>
+                
+                
+
+            </div>
+    </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+        <footer>
+  &copy; 2020 Wasiq Mohammad. Powered by <a href="http://jekyllrb.com/">Jekyll made with  <i class="fa fa-heart heart-icon"></i>
+</footer>
+
+</footer>
+
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="http://localhost:4000/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/main.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-62251910-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+</body>
+</html>

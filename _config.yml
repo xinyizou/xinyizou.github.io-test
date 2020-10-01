@@ -1,1 +1,71 @@
-theme: jekyll-theme-cayman
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Annie
+email: xinyi.zou@uwaterloo.ca
+description: > # this means to ignore newlines until "baseurl:"
+  This is my personal website showcasing what I'm all about.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://xinyizou.github.io" # the base hostname & protocol for your site
+keywords: ["Developer", "Annie", "Waterloo"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Annie (Xinyi) Zou
+  avatar: wasiq-logo.png
+  job: "2nd year Systems Design Engineering student"
+  bio: |
+        Interested in software development, machine learning, and devops.
+        Studying systems design engineering at the University of Waterloo.
+  email: xinyi.zou@uwaterloo.ca
+  disqus-shortname: #username
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: xinyizou #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: xinyizou #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  telegram: #username

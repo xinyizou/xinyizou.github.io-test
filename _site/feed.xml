@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wasiq</title>
+    <description>This is my personal website showcasing what I'm all about.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Jan 2020 07:21:11 +0100</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2020 07:21:11 +0100</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>My Work at the Canadian Space Agency</title>
+        <description>&lt;p&gt;I recently got the chance to present the work I had been doing at the Canadian Space Agency internally an intern poster session. It was such a great opportunity to learn about the work being done around the CSA and to share what I had been working on the past few months.&lt;/p&gt;
+
+&lt;p&gt;I’m happy to have placed 2nd in the intern pitch competition and 3rd in the poster competition for my project (out of about 20 students). My project primarily dealt with processing the Alouette I satellite’s data and building an application to make its data easy to access. Forunately, since none of the details of my project involve restricted information, I have permission to share my poster detailing my work! The poster is below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/csa_poster.jpg&quot; width=&quot;60%&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Dec 2019 13:07:19 +0100</pubDate>
+        <link>http://localhost:4000/articles/2019-12/CSA-project</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2019-12/CSA-project</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Using K-Means Clustering for Renewable Energy</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/energybuddy1.png&quot; alt=&quot;The landing page for EnergyBuddy&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Figure 1: The landing page for EnergyBuddy&lt;/center&gt;
+
+&lt;p&gt;Me and my team members created EnergyBuddy for ConUHacks, a hackathon in Montreal, over the course of 24 hours. It’s a web application that predicts whether solar panels or wind turbines are a more suitable form of energy for a given user-entered city. It determines this via a k-means clustering  machine learning model I built based off of each city’s climate and geographic data. The application also outputs the main factors involved in determining the result for the chosen city (given as an average of the city’s data over the course of a year).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/energybuddy2.png&quot; alt=&quot;The results pop-up with all relevant factors after the city is selected&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Figure 2: The results pop-up with all relevant factors after the city is selected&lt;/center&gt;
+
+&lt;p&gt;The objective was for the user, who could be an environment-conscious individual installing an energy source on their property, a business, or even a policy-maker, to have a clear understanding of which renewable energy source they should be using for their city and why.&lt;/p&gt;
+
+&lt;p&gt;The kind of problem solved was an environmental one. On a more technical level, the project was solving a clustering analysis problem. From the start, we knew we wanted to develop a solution for sustainability and renewable energy issues. After doing some research on what kind of data we could get out hands on online, we came up with our idea.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/energybuddy4.png&quot; alt=&quot;A view of our k-means clustering process, with the points 
+representing the cities being separated into the two groups.&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;Figure 3: A view of our k-means clustering process, with the points representing the cities being separated into the two groups&lt;/center&gt;
+</description>
+        <pubDate>Fri, 15 Feb 2019 19:07:19 +0100</pubDate>
+        <link>http://localhost:4000/articles/2019-02/energy-buddy</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2019-02/energy-buddy</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Monopoly Deal Reimagined</title>
+        <description>&lt;p&gt;I really like the Monopoly Deal card game, and I think it’s more enjoyable than the original board game in fact. That’s why &lt;a href=&quot;https://github.com/ryancoulsonca&quot;&gt;ryancoulsonca&lt;/a&gt; and I decided to create a fun variation of the game, not just digitiszing the card game but making it about world conquest instead of just collecting properties.&lt;/p&gt;
+
+&lt;p&gt;We designed and developeed the game using object-oriented programming in python, using the graphics.py library for the GUI. We closely followed the Software Developement Life Cycle for this program’s creation and testing.&lt;/p&gt;
+
+&lt;p&gt;The rules of the game are very similar to the original. One difference is that in this version, you choose a country to represent and collect cities instead of properties. All of the action cards are based off of the ones in the original game, with the names changed to fit the world domination theme. The objective of the game is to get either 3 full sets of property cards like the original game, or to be the first one to reach 50 million dollars in your bank (this secondary goal was not in the original game and was added by us because it allows more strategy in the game).&lt;/p&gt;
+
+&lt;p&gt;A screenshot of the game is included below and the code is available on my github.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/gameplay1.png&quot; alt=&quot;How the gameplay looks like&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Feb 2017 19:07:19 +0100</pubDate>
+        <link>http://localhost:4000/articles/2017-02/monopoly-deal-reimagined</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-02/monopoly-deal-reimagined</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Product Designing for Older Adults</title>
+        <description>&lt;p&gt;For SYDE 161 Introduction
+to Design, we were asked to design a technology with a fairly broad problem space: solving a problem faced by older adults. Another constraint given was that the solution cannot be a soley software-based one. After a fair bit of reesearch, our group narrowed our problen space to mobility for older adults, and then narrowed even further to older adults getting up the stairs.&lt;/p&gt;
+
+&lt;p&gt;From our final report:
+“Through the analysis of the problem space through personas, research, and the identification of user requirements, we began to design a solution that reduces the number of stair-related falls by creating a device that could grip the hand railing with more force than the user can apply typically.”&lt;/p&gt;
+
+&lt;p&gt;Although the design wasn’t for an app or any sort of software (due to the constraints), the design strategies used are very transferable for things like UX design. Creating personas for the potential users was particularly helpful in narrowing our target audience and designing the most relevent solution. We created 3 personas: one for a primary user (shown below), a secondary user, and an anti-persona (the opposite of the kind of person we’re desgining for).&lt;/p&gt;
+
+&lt;p&gt;Another tool we used was a quality function deployment (QFD), including the creation of a house of quality (I added colour to make it a bit more visually appealing). This was used to identify what the ideal product characteristics would be for our targeted users by analyzing the voice of the customer and the what the competitors were doing in the space.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/qfd.png&quot; alt=&quot;House of Quality for our QFD&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After implementing and testing low-fidelity and medium-fidelity protoypes, we ended up with a metal high-fidelity prototype we called “the Helping Handle”. Our design process was driven by a cycle of research, brainstorming, iterating, and testing. We borrowed ideas from existing solutions like the use of one-way rollers from the Helper Bird device, and combined these ideas with our own to create an optimal design. For example, one of our primary improvements upon existing solutions includes a clamp that can grip any stair railing instead of just one.&lt;/p&gt;
+
+&lt;p&gt;Our final design demonstrates testable functionality for all of our user needs: to increase stability without slowing down th￼e user, have an ergonomic shape for the grip, be adjustable and versatile to fit a variety of railings, and do so while being portable and non-stigmatizing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/hfp2.png&quot; alt=&quot;Close up of the railing-clamp from our high-fidelity prototype&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Moving forward, we would like to focus on a more efficient use of energy put into our system by replacing the hand clamp with a lever. We also need to build outer casings for all our parts. Ideally, the final product would be smaller, and built out of a lighter material that can still maintain strength. Besides these next steps, I think we did a great job implementing a solution for this problem and we managed to learn a lot along the way.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Dec 2016 18:34:04 +0100</pubDate>
+        <link>http://localhost:4000/articles/2016-12/design-project</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2016-12/design-project</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+  </channel>
+</rss>
