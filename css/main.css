@@ -2013,6 +2013,7 @@ header .logo a {
 }
 .services-content {
 	max-width: 1000px;
+	padding-bottom: 10rem;
 }
 .services-list {
 	margin-top: 1.2rem;
@@ -2314,6 +2315,7 @@ header .logo a {
 }
 .contact-info p {
 	color: #FF0077;
+	font-size: 80%;
 }
 
 /**
