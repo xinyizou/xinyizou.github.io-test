@@ -1,343 +1,496 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
-
-
-
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="This is my personal website showcasing what I'm all about.
-">
-  <meta name="keywords" content="Developer, Wasiq, and Waterloo">
-  <meta name="author" content="Wasiq">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#f5f5f5">
 
-  <!-- Twitter Tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Wasiq">
-  <meta name="twitter:description" content="This is my personal website showcasing what I'm all about.
-">
-  <meta name="twitter:image" content="http://localhost:4000/img/wasiq-logo.png">
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Annie Zou</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-  <!-- Open Graph Tags -->
-  <meta property="og:type" content="blog">
-  <meta property="og:url" content="http://localhost:4000">
-  <meta property="og:title" content="Wasiq">
-  <meta property="og:description" content="This is my personal website showcasing what I'm all about.
-">
-  <meta property="og:image" content="http://localhost:4000/img/wasiq-logo.png">
-  <title>Wasiq</title>
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- CSS files -->
-  <link rel="stylesheet" href="http://localhost:4000/css/font-awesome.min.css">
-  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">
 
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="alternate" type="application/rss+xml" title="Wasiq" href="http://localhost:4000 /feed.xml " />
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-  <!-- Icons -->
-  <!-- 16x16 -->
-  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
-  <!-- 32x32 -->
-  <link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 
+<body id="top">
 
-<body>
-  <div class="row">
-    <div class="col s12 m3">
-      <div class="table cover">
-        
+	<!-- header
+   ================================================== -->
+   <header>
+   	<div class="row">
 
-<div class="cover-card table-cell table-middle">
-  
-  <img src="http://localhost:4000/img/wasiq-logo.png" alt="" class="avatar">
-  
-  <a href="http://localhost:4000/" class="author_name">Wasiq Mohammad</a>
-  <span class="author_job">3rd year Systems Design Engineering student</span>
-  <span class="author_bio mbm">Interested in data, machine learning, and doing cool things with code.
-Studying systems design engineering at the University of Waterloo.
-</span>
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="http://localhost:4000/">home</a>
-        <span>/</span>
-      </li>
-             
-      <li class="nav-item">
-        <a href="http://localhost:4000/resume/">Resume</a>
-        
-          <span>/</span>
-        
-      </li>
-         
-    </ul>
-  </nav>
-  <script type="text/javascript">
-  // based on http://stackoverflow.com/a/10300743/280842
-  function gen_mail_to_link(hs, subject) {
-    var lhs,rhs;
-    var p = hs.split('@');
-    lhs = p[0];
-    rhs = p[1];
-    document.write("<a class=\"social-link-item\" target=\"_blank\" href=\"mailto");
-    document.write(":" + lhs + "@");
-    document.write(rhs + "?subject=" + subject + "\"><i class=\"fa fa-fw fa-envelope\"></i><\/a>");
-  }
-</script>
-<div class="social-links">
-  <ul>
-    
-      <li>
-      <script>gen_mail_to_link('wfmohamm@edu.uwaterloo.ca', 'Hello from website');</script>
-      </li>
-    
-    
-    
-    
-    <li><a href="http://linkedin.com/in/wasiqm" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
-    
-    
-    
-    <li><a href="http://github.com/wasiqm" class="social-link-item" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  </ul>
-</div>
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-</div>
+	   		<div class="logo">
+		         <a href="index.html">Annie Zou</a>
+		      </div>
 
-      </div>
-    </div>
-    <div class="col s12 m9">
-      <div class="post-listing">
-        
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        22 DEC 2019
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#project">project</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2019-12/CSA-project" class="post-title" title="My Work at the Canadian Space Agency">My Work at the Canadian Space Agency</a>
-      
-    </h4>
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About Me</a></li>
+						<li><a class="smoothscroll"  href="#Work" title="">Work Experience</a></li>
+						<li><a class="smoothscroll"  href="#Projects" title="">Projects</a></li>
 
-    
+					</ul>
+				</nav>
+   		</div> <!-- /top-bar -->
 
-    </header>
+   	</div> <!-- /row -->
+   </header> <!-- /header -->
 
-    
-    <div class="post-description">
-      <p>
-        <p>I recently got the chance to present the work I had been doing at the Canadian Space Agency internally an intern poster session. It was such a great opportunity to learn about the work being done around the CSA and to share what I had been working on the past few months.</p>
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">
 
-<p>I’m happy to have placed 2nd in the intern pitch competition and 3rd in the poster competition for my project (out of about 20 students). My project primarily dealt with processing the Alouette I satellite’s data and building an application to make its data easy to access. Forunately, since none of the details of my project involve restricted information, I have permission to share my poster detailing my work! The poster is below.</p>
+   	<div class="intro-overlay"></div>
 
-<p><img src="/img/csa_poster.jpg" width="60%" /></p>
+   	<div class="intro-content">
+   		<div class="row">
 
-      </p>
-    </div>
-    
+   			<div class="col-twelve">
 
-    
+	   			<h5>Nice to meet you.</h5>
+	   			<h1>I'm Annie Zou.</h1>
 
-</section>
+	   			<p class="intro-position">
+	   				<span>Software Developer</span>
+	   				<span>Aspiring Product Manager</span>
+   
+				</p>
 
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        15 FEB 2019
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#project">project</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2019-02/energy-buddy" class="post-title" title="Using K-Means Clustering for Renewable Energy">Using K-Means Clustering for Renewable Energy</a>
-      
-    </h4>
+	   			<a class="button stroke smoothscroll" href="#about" title="">Learn more</a>
 
-    
+	   		</div>
 
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        <p><img src="http://localhost:4000/img/energybuddy1.png" alt="The landing page for EnergyBuddy" /></p>
-<center>Figure 1: The landing page for EnergyBuddy</center>
-
-<p>Me and my team members created EnergyBuddy for ConUHacks, a hackathon in Montreal, over the course of 24 hours. It’s a web application that predicts whether solar panels or wind turbines are a more suitable form of energy for a given user-entered city. It determines this via a k-means clustering  machine learning model I built based off of each city’s climate and geographic data. The application also outputs the main factors involved in determining the result for the chosen city (given as an average of the city’s data over the course of a year).</p>
-
-<p><img src="http://localhost:4000/img/energybuddy2.png" alt="The results pop-up with all relevant factors after the city is selected" /></p>
-<center>Figure 2: The results pop-up with all relevant factors after the city is selected</center>
-
-<p>The objective was for the user, who could be an environment-conscious individual installing an energy source on their property, a business, or even a policy-maker, to have a clear understanding of which renewable energy source they should be using for their city and why.</p>
-
-<p>The kind of problem solved was an environmental one. On a more technical level, the project was solving a clustering analysis problem. From the start, we knew we wanted to develop a solution for sustainability and renewable energy issues. After doing some research on what kind of data we could get out hands on online, we came up with our idea.</p>
-
-<p><img src="http://localhost:4000/img/energybuddy4.png" alt="A view of our k-means clustering process, with the points 
-representing the cities being separated into the two groups." /></p>
-<center>Figure 3: A view of our k-means clustering process, with the points representing the cities being separated into the two groups</center>
-
-      </p>
-    </div>
-    
-
-    
-
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        12 FEB 2017
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#project">project</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2017-02/monopoly-deal-reimagined" class="post-title" title="Monopoly Deal Reimagined">Monopoly Deal Reimagined</a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        <p>I really like the Monopoly Deal card game, and I think it’s more enjoyable than the original board game in fact. That’s why <a href="https://github.com/ryancoulsonca">ryancoulsonca</a> and I decided to create a fun variation of the game, not just digitiszing the card game but making it about world conquest instead of just collecting properties.</p>
-
-<p>We designed and developeed the game using object-oriented programming in python, using the graphics.py library for the GUI. We closely followed the Software Developement Life Cycle for this program’s creation and testing.</p>
-
-<p>The rules of the game are very similar to the original. One difference is that in this version, you choose a country to represent and collect cities instead of properties. All of the action cards are based off of the ones in the original game, with the names changed to fit the world domination theme. The objective of the game is to get either 3 full sets of property cards like the original game, or to be the first one to reach 50 million dollars in your bank (this secondary goal was not in the original game and was added by us because it allows more strategy in the game).</p>
-
-<p>A screenshot of the game is included below and the code is available on my github.</p>
-
-<p><img src="http://localhost:4000/img/gameplay1.png" alt="How the gameplay looks like" /></p>
-
-      </p>
-    </div>
-    
-
-    
-
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        28 DEC 2016
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#project">project</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2016-12/design-project" class="post-title" title="Product Designing for Older Adults">Product Designing for Older Adults</a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        <p>For SYDE 161 Introduction
-to Design, we were asked to design a technology with a fairly broad problem space: solving a problem faced by older adults. Another constraint given was that the solution cannot be a soley software-based one. After a fair bit of reesearch, our group narrowed our problen space to mobility for older adults, and then narrowed even further to older adults getting up the stairs.</p>
-
-<p>From our final report:
-“Through the analysis of the problem space through personas, research, and the identification of user requirements, we began to design a solution that reduces the number of stair-related falls by creating a device that could grip the hand railing with more force than the user can apply typically.”</p>
-
-<p>Although the design wasn’t for an app or any sort of software (due to the constraints), the design strategies used are very transferable for things like UX design. Creating personas for the potential users was particularly helpful in narrowing our target audience and designing the most relevent solution. We created 3 personas: one for a primary user (shown below), a secondary user, and an anti-persona (the opposite of the kind of person we’re desgining for).</p>
-
-<p>Another tool we used was a quality function deployment (QFD), including the creation of a house of quality (I added colour to make it a bit more visually appealing). This was used to identify what the ideal product characteristics would be for our targeted users by analyzing the voice of the customer and the what the competitors were doing in the space.</p>
-
-<p><img src="http://localhost:4000/img/qfd.png" alt="House of Quality for our QFD" /></p>
-
-<p>After implementing and testing low-fidelity and medium-fidelity protoypes, we ended up with a metal high-fidelity prototype we called “the Helping Handle”. Our design process was driven by a cycle of research, brainstorming, iterating, and testing. We borrowed ideas from existing solutions like the use of one-way rollers from the Helper Bird device, and combined these ideas with our own to create an optimal design. For example, one of our primary improvements upon existing solutions includes a clamp that can grip any stair railing instead of just one.</p>
-
-<p>Our final design demonstrates testable functionality for all of our user needs: to increase stability without slowing down th￼e user, have an ergonomic shape for the grip, be adjustable and versatile to fit a variety of railings, and do so while being portable and non-stigmatizing.</p>
-
-<p><img src="http://localhost:4000/img/hfp2.png" alt="Close up of the railing-clamp from our high-fidelity prototype" /></p>
-
-<p>Moving forward, we would like to focus on a more efficient use of energy put into our system by replacing the hand clamp with a lever. We also need to build outer casings for all our parts. Ideally, the final product would be smaller, and built out of a lighter material that can still maintain strength. Besides these next steps, I think we did a great job implementing a solution for this problem and we managed to learn a lot along the way.</p>
-
-      </p>
-    </div>
-    
-
-    
-
-</section>
+   		</div>
+   	</div> <!-- /intro-content -->
 
 
-        <footer>
-  &copy; 2020 Wasiq Mohammad. Powered by <a href="http://jekyllrb.com/">Jekyll made with  <i class="fa fa-heart heart-icon"></i>
-</footer>
 
-</footer>
-
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript" src="http://localhost:4000/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="http://localhost:4000/js/main.js"></script>
-
-<!-- Asynchronous Google Analytics snippet -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-62251910-2', 'auto');
-  ga('send', 'pageview');
-</script>
+   </section> <!-- /intro -->
 
 
+   <!-- about section
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About Me</h5>
+
+
+   			<div class="intro-info">
+
+   				<img src="images/Square_profile.jpg" alt="Profile Picture">
+
+   				<p class="lead">I am always looking for opportunities to grow my skills in software development and not afraid to 
+					   tackle unfamiliar territory. My past experiences range from QA testing to devops and I am always looking for
+					   new challenges. 
+				   </p>
+   			</div>
+
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile </h3>
+
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Name:</strong>
+   					<span>Annie (Xinyi) Zou</span>
+   				</li>
+                <li>
+   					<strong>Email:</strong>
+   					<span>xinyi.zou@uwaterloo.ca</span>
+   				</li>
+   				<li>
+   					<strong>Phone:</strong>
+   					<span>+1 (416)-436-0706</span>
+				</li> 
+				<li>
+					<strong>LinkedIn:</strong>
+					<span>www.linkedin.com/in/xinyi-zou</span>
+				</li>
+				<li>
+					<strong>GitHub:</strong>
+					<span>https://github.com/xinyizou</span>
+				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Software skills</h3>
+
+<!-- TODO: -->
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>C++</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>70%</span></div>
+				   	<strong>Unity</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>75%</span></div>
+				   	<strong>Mobile Development</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>Python</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>Infrastructure as Code</strong>
+				   </li>
+				   <li>
+                    <div class="progress percent75"><span>75%</span></div>
+				   	<strong>Jenkins</strong>
+				   </li>
+
+				</ul>
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" target="_blank" title="Hire Me" class="button button-primary">Contact Me</a>
+   			<a href="https://github.com/xinyizou/xinyizou.github.io/raw/master/images/09-20swe.pdf" target="_blank" title="Download Resume" class="button button-primary">View SWE Resume</a>
+   			<a href="https://github.com/xinyizou/xinyizou.github.io/raw/master/images/09-20pm.pdf" target="_blank" title="Download Resume" class="button button-primary">View PM Resume</a>   
+		</div>
+   	</div>
+
+   </section> <!-- /process-->
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="Work" class="grey-section">
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h1>Technical Experience</h1>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-header">
+	   					<h3>Fullstack Augmented Reality Developer @ Interaptix</h3>
+	   					<p></p>
+					   </div>
+					   
+					<div class="timeline-header">
+						<h3>AI Data and Software Engineering @ National Bank of Canada</h3>
+						<p></p>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Quality Assurance Analyst @ The Weather Network</h3>
+						<p></p>
+					</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->
+
+   		</div> <!-- /col-twelve -->
+
+   	</div> <!-- /resume-timeline -->
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h1>Management Experience</h1>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+					<div class="timeline-header">
+						<h3>Campus Lead @ Global Spark</h3>
+						<p></p>
+					</div>
+					
+					<div class="timeline-header">
+						<h3>Scrum Master @ National Bank of Canada</h3>
+						<p></p>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Quality Assurance Analyst @ The Weather Network</h3>
+						<p></p>
+					</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->
+
+   		</div> <!-- /col-twelve -->
+
+   	</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+
+
+
+	<!-- CTA Section
+   ================================================== -->
+
+
+	<!-- services Section
+   ================================================== -->
+	<section id="Projects">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Projects</h5>
+
+
+
+
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+   			<div class="service">
+
+			   	<span class="icon"><i class="icon-camera"></i></span>
+
+	            <div class="service-content">
+
+	            	<h3>Hide.me</h3>
+					<p class="desc">AI-driven image anonymization using Tensorflow models</p>
+					<p class="desc">Github: </p>
+					
+	            </div>
+
+			   </div> <!-- /service --><div class="service">
+
+					<span class="icon"><i class="icon-earth"></i></span>
+
+	            <div class="service-content">
+
+	            	<h3>Watbin</h3>
+					<p class="desc">Android recycling app with object recognition capabilities</p>
+					<p class="desc">Github: </p>
+
+		            
+	            </div>
+	            </div> <!-- /services-list -->
+
+	      	<div class="service">
+
+	      		<span class="icon"><i class="icon-heart"></i></span>
+
+	            <div class="service-content">
+
+	            	 <h3>PhysioCare</h3>
+
+					<p class="desc">Mobile app for physiotherapy telemedicine solution</p>
+					<p class="desc">Github: </p>
+
+	         	</div>
+
+				</div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-car"></i></span>
+
+	            <div class="service-content">
+
+	            	<h3>DriveSmart</h3>
+
+					<p class="desc">Arduino cognitive assessment-based ignition interlock system</p>
+					<p class="desc">Github: </p>
+
+	            </div>
+
+			   </div> <!-- /service -->
+
+
+
+   	</div> <!-- /services-content -->
+
+	</section> <!-- /services -->
+
+
+	<!-- stats Section
+   ================================================== -->
+
+
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<!-- <h1>N'hésitez pas à me contacter.</h1> -->
+
+
+
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+			<!-- TODO: redirects away from the portfolio after form submits -->
+
+            <!-- form -->
+            <form id="contactform" action="https://formspree.io/xzbkbadz" method="POST">
+
+      <input type="text" name="name" placeholder="Your name">
+      <input type="email" name="_replyto" placeholder="Your email">
+      <textarea name="message" placeholder="Your message"></textarea>
+      <input type="submit" value="Send">
+  </form>
+ 						    <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">
+            </div>
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email me at:</h5>
+
+   			<p>xinyi.zou@uwaterloo.ca</p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call me at:</h5>
+
+   			<p>+1 (416)-436-0706</p>
+
+		</div>
+
+		<div class="col-four tab-full">
+
+			<div class="icon">
+				<i class="icon-phone"></i>
+			</div>
+
+			<h5>See my work at:</h5>
+
+			<p>https://github.com/xinyizou</p>
+
+		</div>
+
+   	</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+        	<div class="col-six tab-full pull-right social">
+
+             			<ul class="footer-social">
+							<li><a target="_blank"href="https://www.linkedin.com/in/xinyi-zou/"><i class="fa fa-linkedin"></i></a></li>
+							<li><a target="_blank"href="https://github.com/xinyizou"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        			   </ul>
+
+        	      </div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->
+   </footer>
+
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
+
 </html>
