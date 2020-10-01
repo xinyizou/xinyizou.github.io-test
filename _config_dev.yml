@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Annie (Xinyi) Zou
-email: xinyi.zou@uwaterloo.ca
+title: Wasiq Mohammad
+email: wfmohamm@uwaterloo.ca
 description: > # this means to ignore newlines until "baseurl:"
   This is my personal website showcasing what I'm all about.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site
-linkedin_username: xinyizou
-github_username:  xinyizou
+linkedin_username: wasiqm
+github_username:  wasiqm
 
 # Build settings
 sass:

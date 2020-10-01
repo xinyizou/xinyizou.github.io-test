@@ -3,13 +3,13 @@
 # Site wide configuration
 ####################################
 #
-title: Annie
-email: xinyi.zou@uwaterloo.ca
+title: Wasiq
+email: wfmohamm@edu.uwaterloo.ca
 description: > # this means to ignore newlines until "baseurl:"
   This is my personal website showcasing what I'm all about.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://xinyizou.github.io" # the base hostname & protocol for your site
-keywords: ["Developer", "Annie", "Waterloo"]
+url: "http://wasiqm.github.io" # the base hostname & protocol for your site
+keywords: ["Developer", "Wasiq", "Waterloo"]
 
 #
 ###################################
@@ -35,26 +35,26 @@ kramdown:
 ####################################
 #
 owner:
-  name: Annie (Xinyi) Zou
+  name: Wasiq Mohammad
   avatar: wasiq-logo.png
-  job: "2nd year Systems Design Engineering student"
+  job: "3rd year Systems Design Engineering student"
   bio: |
-        Interested in software development, machine learning, and devops.
+        Interested in data, machine learning, and doing cool things with code.
         Studying systems design engineering at the University of Waterloo.
-  email: xinyi.zou@uwaterloo.ca
+  email: wfmohamm@edu.uwaterloo.ca
   disqus-shortname: #username
   twitter: #username
   facebook: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-62251910-2
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: xinyizou #username
+  github: wasiqm #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: xinyizou #username
+  linkedin: wasiqm #username
   xing: #username
   instagram: #username
   lastfm: #username
